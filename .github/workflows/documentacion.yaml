@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Saludo
-        uses: RUSERtr/js-action-by-ruser@v1.0
+      - name: JS Action by ruser
+        uses: RUSERtr/world-javascript-action@v1.0
         with:
           who-to-greet: "Sergio"
 
