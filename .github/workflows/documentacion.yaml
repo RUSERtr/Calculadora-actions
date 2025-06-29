@@ -8,7 +8,7 @@ jobs:
     
     steps:
       - name: Saludo
-        uses: actions/js-action-by-ruser@v1.0
+        uses: RUSERtr/js-action-by-ruser@v1.0
         with:
           who-to-greet: "Sergio"
 
