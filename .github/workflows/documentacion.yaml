@@ -5,8 +5,14 @@ on: push
 jobs:
   compila:
     runs-on: ubuntu-latest
-
+    
     steps:
+      - name: Saludo
+        uses: actions/js-action-by-ruser@v1.0
+        with:
+          who-to-greet: "Sergio"
+
+      
       - name: checkout
         uses: actions/checkout@v4.2.2
 
